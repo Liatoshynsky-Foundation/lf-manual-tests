@@ -1,10 +1,4 @@
-name: 🐞 Bug report
-description: Report a bug using the standard QA template
-title: "[Bug][Affected functionality]"
-labels: ["Bug"]
-
-body:
-  **Summary:**
+**Summary:**
 
 
 **Environment:** OS, browser, it's version, device (for mobile devices).
@@ -42,6 +36,4 @@ WHERE id=<item1_id>;"
 
 **User story and test case links**
 E.g.: "User story #100
-[Test case]([#100 Story]()"
-
- 
+[Test case]([#100 Story])()"
