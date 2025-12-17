@@ -1,3 +1,11 @@
+---
+name: 🐞 Bug report
+about: Use this template to report bugs in the project.
+title: ''
+labels: bug
+assignees: ''
+
+---
 **Summary:**
 
 
@@ -37,3 +45,4 @@ WHERE id=<item1_id>;"
 **User story and test case links**
 E.g.: "User story #100
 [Test case]([#100 Story])()"
+Epic:
