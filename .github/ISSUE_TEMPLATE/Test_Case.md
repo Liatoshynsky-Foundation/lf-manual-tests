@@ -2,8 +2,8 @@
 name: 📋 Test case
 about: Use this template to creat test cases in the project
 title: ''
-lables: test case
-assignees:''
+labels: test case
+assignees: ''
 
 ---
 
