@@ -4,117 +4,44 @@ title: "[Bug][Affected functionality]"
 labels: ["Bug"]
 
 body:
-  - type: textarea
-    id: summary
-    attributes:
-      label: Summary
-      description: Short description of the issue
-      placeholder: Briefly describe the bug
-    validations:
-      required: true
+  **Summary:**
 
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: OS, browser, version, device
-      placeholder: |
-        OS:
-        Browser:
-        Browser version:
-        Device:
-    validations:
-      required: true
 
-  - type: dropdown
-    id: reproducible
-    attributes:
-      label: Reproducible
-      options:
-        - Always
-        - Sometimes
-        - Rarely
-        - Not reproducible
-    validations:
-      required: true
+**Environment:** OS, browser, it's version, device (for mobile devices).
 
-  - type: input
-    id: build
-    attributes:
-      label: Build found
-      placeholder: last commit from ...
-    validations:
-      required: false
+**Reproducible:** always, rarely, sometimes etc.
 
-  - type: textarea
-    id: preconditions
-    attributes:
-      label: Preconditions
-      description: Actions required before reproducing the bug
-      placeholder: |
-        Example:
-        Create an item in the database using SQL query:
-        INSERT INTO table1 (column1, column2)
-        VALUES (value1, value2);
-    validations:
-      required: false
+**Build found:** last commit from 
 
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-    validations:
-      required: true
+**Preconditions:**
+A clear and concise description of actions to be done before the start of the bug reproducing (to make bug reproducing possible). E.g.:
+"Create an item in the database using SQL query:
+INSERT INTO table1 (column1, column2)
+VALUES (value1, value2);"
 
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected result
-      placeholder: Describe what you expected to happen
-    validations:
-      required: true
+**Steps**
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
 
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual result
-      placeholder: Describe what actually happened
-    validations:
-      required: true
+**Actual result:**
 
-  - type: textarea
-    id: attachments
-    attributes:
-      label: Attachments
-      description: Screenshots, videos, logs
-      placeholder: Drag and drop files here
-    validations:
-      required: false
+A clear and concise description of what happened (displayed, not displayed etc.)
+Attached bug screenshots or video recorded.
 
-  - type: textarea
-    id: postconditions
-    attributes:
-      label: Postconditions
-      placeholder: |
-        Example:
-        Delete created item from database using SQL query:
-        DELETE FROM table1
-        WHERE id=<item1_id>;
-    validations:
-      required: false
+**Expected result:**
 
-  - type: textarea
-    id: links
-    attributes:
-      label: User story and test case links
-      placeholder: |
-        User story #100
-        Test case #200
-    validations:
-      required: false
+A clear and concise description of what you expected to happen.
+Attached screenshots or mock-ups if available.
+
+**Postconditions:**
+A clear and concise description of actions to be done after bug reproducing. E.g.:
+"Delete created item from database using SQL query:
+DELETE FROM table1
+WHERE id=<item1_id>;"
+
+**User story and test case links**
+E.g.: "User story #100
+[Test case]([#100 Story]()"
 
  
