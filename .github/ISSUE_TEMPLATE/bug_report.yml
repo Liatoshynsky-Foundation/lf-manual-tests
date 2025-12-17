@@ -1,0 +1,120 @@
+name: 🐞 Bug report
+description: Report a bug using the standard QA template
+title: "[Bug][Affected functionality]"
+labels: ["Bug"]
+
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Short description of the issue
+      placeholder: Briefly describe the bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, version, device
+      placeholder: |
+        OS:
+        Browser:
+        Browser version:
+        Device:
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Reproducible
+      options:
+        - Always
+        - Sometimes
+        - Rarely
+        - Not reproducible
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: Build found
+      placeholder: last commit from ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Preconditions
+      description: Actions required before reproducing the bug
+      placeholder: |
+        Example:
+        Create an item in the database using SQL query:
+        INSERT INTO table1 (column1, column2)
+        VALUES (value1, value2);
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      placeholder: Describe what you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      placeholder: Describe what actually happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Attachments
+      description: Screenshots, videos, logs
+      placeholder: Drag and drop files here
+    validations:
+      required: false
+
+  - type: textarea
+    id: postconditions
+    attributes:
+      label: Postconditions
+      placeholder: |
+        Example:
+        Delete created item from database using SQL query:
+        DELETE FROM table1
+        WHERE id=<item1_id>;
+    validations:
+      required: false
+
+  - type: textarea
+    id: links
+    attributes:
+      label: User story and test case links
+      placeholder: |
+        User story #100
+        Test case #200
+    validations:
+      required: false
+
+ 
