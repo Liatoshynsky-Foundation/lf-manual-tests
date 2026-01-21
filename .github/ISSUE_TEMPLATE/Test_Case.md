@@ -9,9 +9,10 @@ assignees: ''
 
 **Summary:**
 
-**Priority:**high/medium/low
+**Priority:** _Apply labels to this issue: high, medium, low_
 
 **Environment:**
+
 **Device/responsive design:** 
 - [ ] Mobile -320 px
 - [ ] Mobile -767 px
@@ -45,12 +46,12 @@ assignees: ''
 **Test data:**
 
 
-**Steps:**
-1. Go to ''..
+## Steps:
+1. Go to '..'..
 2.
 3. 
 
-**Expected result:**
+## Expected result:
 - [ ]
 - [ ]
 - [ ]
