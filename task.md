@@ -2,7 +2,7 @@
 name: ✅ Improvement
 about: Use this template to create test cases in the project
 title: ''
-labels: test case
+labels: improvement
 assignees: ''
 
 ---
