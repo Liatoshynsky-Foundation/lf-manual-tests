@@ -1,6 +1,6 @@
 ---
 name: ✅ Improvement
-about: Use this template to create test cases in the project
+about: Use this template to create a improvement.
 title: ''
 labels: improvement
 assignees: ''
