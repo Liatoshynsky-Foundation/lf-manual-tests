@@ -20,9 +20,9 @@ assignees: ''
 - [ ] Small tablets -1023 px
 - [ ] Big tablets-Small Desktop -1024 px
 - [ ] Big tablets-Small Desktop -1279 px
-- [ ] Desktop  -1439 px
 - [ ] Desktop -1280 px
 - [ ] Desktop -1281x
+- [ ] Desktop  -1439 px
 - [ ] Desktop -1440+px
 
 **OS:**
