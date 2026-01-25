@@ -14,11 +14,11 @@ assignees: ''
 **Environment:**
 
 **Device/responsive design:** 
-- [ ] Mobile -320 px767 px
-- [ ] Small tablets -768 px1023 px
-- [ ] Big tablets-Small Desktop -1024 px1279 px
-- [ ] Desktop -1280 px-1439 px
-- [ ] Desktop -1440+px
+- [ ] Mobile: 320-767px
+- [ ] Small tablets: 768-1023px
+- [ ] Big tablets-Small Desktop: 1024-1279px
+- [ ] Desktop: 1280-1439px
+- [ ] Desktop: 1440+px
 
 **OS:**
 - [ ]  Android 
@@ -40,7 +40,7 @@ assignees: ''
 
 **Precondition:**
 1. Open the [If-client.](https://lf-client-stage-a3ama9eydjfucnbj.polandcentral-01.azurewebsites.net/uk/biography)
-2. Open DevTool.
+2. 
 3. 
 
 **Test data:**
