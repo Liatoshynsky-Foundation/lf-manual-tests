@@ -14,15 +14,10 @@ assignees: ''
 **Environment:**
 
 **Device/responsive design:** 
-- [ ] Mobile -320 px
-- [ ] Mobile -767 px
-- [ ] Small tablets -768 px
-- [ ] Small tablets -1023 px
-- [ ] Big tablets-Small Desktop -1024 px
-- [ ] Big tablets-Small Desktop -1279 px
-- [ ] Desktop -1280 px
-- [ ] Desktop -1281x
-- [ ] Desktop  -1439 px
+- [ ] Mobile -320 px767 px
+- [ ] Small tablets -768 px1023 px
+- [ ] Big tablets-Small Desktop -1024 px1279 px
+- [ ] Desktop -1280 px-1439 px
 - [ ] Desktop -1440+px
 
 **OS:**
@@ -37,6 +32,11 @@ assignees: ''
 - [ ] Safari (iOS)
 - [ ] Firefox ( Android)
 - [ ] Firefox ( Windows)
+
+**Version**
+
+- [ ] Uk
+- [ ] En
 
 **Precondition:**
 1. Open the [If-client.](https://lf-client-stage-a3ama9eydjfucnbj.polandcentral-01.azurewebsites.net/uk/biography)
