@@ -20,20 +20,17 @@ assignees: ''
 - [ ] Desktop: 1280-1439px
 - [ ] Desktop: 1440+px
 
-**OS:**
-- [ ]  Android 
-- [ ]  iOS
-- [ ]  Windows
-
 **Browsers:** 
 - [ ] Google Chrome (Android)
 - [ ] Google Chrome (iOS)
 - [ ] Google Chrome (Windows)
 - [ ] Safari (iOS)
+- [ ] Safari (macOS)
+- [ ] Google Chrome (macOS)
 - [ ] Firefox ( Android)
 - [ ] Firefox ( Windows)
 
-**Version**
+**Version/language**
 
 - [ ] Uk
 - [ ] En
