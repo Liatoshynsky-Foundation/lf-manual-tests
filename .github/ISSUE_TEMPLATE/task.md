@@ -7,17 +7,17 @@ assignees: ''
 
 ---
 
-**User story link**
-[#User_Story ](url)
+
 
 ### Task description
-Show priority posts by api request
+As a user`/role` I want.., so that I can ...
 
 ### To do 
-1. - [ ] Implement api endpoint contorller for getting posts.
-2. - [ ] Implement service for getting all priority posts.
-3. - [ ] Implement repository for getting all priority posts.
+1. - [ ] Add ability...
+2. - [ ] Create..
+3. - [ ] 
 
 
 _Reason: short description, why it's profitable/needed._
- 
+
+_US/TC/Task🔗_
